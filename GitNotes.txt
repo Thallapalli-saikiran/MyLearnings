@@ -1,0 +1,46 @@
+Git Notes
+
+UN: thallasaikiran7@gmail.com
+PWD: HcQpf9RVJE6A4xa
+
+git remote add origin https://github.com/Thallapalli-saikiran/MyLearnings.git
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+https://the-internet.herokuapp.com/
+
+Git & Github --> 1.VCS & Git Repo
+                 2.Staging area & commits
+                 3.Branches
+                 4.Issues & PRs
+1.Working directory
+2.Staging area
+3.Local Repository
+4.Remote Repo
+
+repository - project folder
+-->Github -- example of remote repository hosting seervice
+-->Local repositor
+
+
+-->git init
+-->git status
+-->Untracked files: (working directory)
+-->area to be commited (staging area)
+-->git add Text.txt (to move files from WD to Staging)
+-->git commit -m "commiting code and example" (to move files from staging to local repo)
+-->git push -u origin main (to move the code from local repo to remote repo)
+
+Branches:
+
+***-->checkout command is used to switching between branches
+-->git checkout -b "branch1"
+-->git add text.txt
+-->git commit -m "commiting Text_D1.txt to branch1"
+
+***remote to local
+-->git clone https c/p
+-->git status
+
+Conflicts:
+-->git merge origin/master (to move files from remote repo master to branch)
