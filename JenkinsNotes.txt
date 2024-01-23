@@ -1,0 +1,70 @@
+Jenkins:
+http://localhost:8080/
+
+****code -->2c122b0cbf0b463bb7ba559231551024 (3300mail)
+
+***Admin User --> kiran_test_user || Saikiran@123 || thallasaikiran7@gmail.com || Saikiran Thallapalli
+
+Using CI tools like jenkins we can automate process like building, packaging, deployement and testing. supports parallel deployements.
+
+CI: continous integration is a development practice in which the developers are required to commit changes to the source code in a shared repository several times a day or more frequently.
+
+Jenkins is an open source automation tool written in java with plugins built for continious integration purpose.Plugins allows integration of various DevOps stages.
+
+***An open source automation server which enables developers around the world to reliably build, test and deploy their software
+
+Issues faced before CI:
+1.Long waits to test code
+2.Difficult to debug
+3.Slow software delivery process
+4.Infrequent feedback cycles
+
+pipeline - step by step execution
+
+Version Control --> Build --> Unit test -->Deploy -->auto test -->deploy to production -->measure validate
+
+-->Jenkins is a open source project written in java that runs on windows, linux, MacOS
+-->Consist of plugins
+-->It was developed by sun microsystem
+
+
+-->Jnekins master will distribute its workload to its slaves
+-->Jenkins slaves are generally required to provide the desired environment. it works on the basis of request received from jenkins master
+
+Jenkins setup
+-->
+
+
+Why QA needs to learn jenkins
+-->Runs automated test suites
+-->run you web, mobile automation suites
+-->API Monitoring
+-->Report and email notification
+-->trends and detailed failure that can be shared
+-->you can use slave to make build and run fast
+
+
+FreeStyle job in jenkins
+-->Freestyle means improvised or unresttricted.
+-->According to the official jenkins wiki, a freestyle project is a typical build job or task. this could be as simple as running tests, building or packaging an application, sending a report, or even running some commads. Before any tests are run, data is collated.
+
+Jenkins freestyle project is a repeatable build job, script, or pipeline that contains steps and post-build actions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
