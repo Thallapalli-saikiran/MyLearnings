@@ -18,6 +18,14 @@ Git & Github --> 1.VCS & Git Repo
 3.Local Repository
 4.Remote Repo
 
+Working Directory: This is the directory on your local machine where you make changes to your files. It’s essentially your workspace where you edit, create, and delete files. Any changes made here are not yet tracked by version control until you stage them.
+
+Staging Area: Also known as the index, the staging area is a place where you can group changes before committing them to the local repository. Think of it as a preparation area where you decide which changes should be included in the next commit. You add changes to the staging area using the git add command.
+
+Local Repository: This is the version-controlled directory on your local machine. It contains all the project files and the history of changes made to those files. When you commit changes, they are saved in the local repository. You can view the history of commits and revert to previous versions if needed.
+
+Remote Repository: This is a version-controlled directory hosted on a remote server, such as GitHub, GitLab, or Bitbucket. It allows multiple collaborators to work on the same project. You can push your local commits to the remote repository and pull changes from it to keep your local repository up to date with the latest changes made by others.
+
 repository - project folder
 -->Github -- example of remote repository hosting seervice
 -->Local repositor
